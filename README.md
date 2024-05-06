@@ -5,7 +5,7 @@ Paper link: https://ieeexplore.ieee.org/abstract/document/10506207
 The folder "layers" contains the implementation of the proposed layers. 
 For example, if the input tensor is 3x16x32x32 and the output is 3x16x32x32, 
 the single-path DCT-perceptron layer: 
-
+    from layers.DCT import DCTConv2D
     DCTConv2D(32, 32, 16, 16, 1, residual=True)
 3-path DCT-perceptron layer: 
 
