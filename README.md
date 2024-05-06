@@ -14,3 +14,13 @@ the single-path DCT-perceptron layer:
 The parameter "pod" in the function "DCTConv2D" stands for the number of paths.
 
 More examples can be found in the folder CIFAR10 and ImageNet1K.
+
+To cite this work:
+
+    @article{pan2024multichannel,
+      title={Multichannel Orthogonal Transform-Based Perceptron Layers for Efficient ResNets},
+      author={Pan, Hongyi and Hamdan, Emadeldeen and Zhu, Xin and Atici, Salih and Cetin, Ahmet Enis},
+      journal={IEEE Transactions on Neural Networks and Learning Systems},
+      year={2024},
+      publisher={IEEE}
+    }
