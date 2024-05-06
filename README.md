@@ -13,7 +13,7 @@ the single-path DCT-perceptron layer:
     DCTConv2D(32, 32, 16, 16, 3, residual=False)
 The parameter "pod" in the function "DCTConv2D" stands for the number of paths.
 
-More examples can be found in the folder CIFAR10 and ImageNet1K.
+More examples can be found in the folder ImageNet1K.
 
 To cite this work:
 
